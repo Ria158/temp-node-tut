@@ -1,0 +1,6 @@
+const names = require('./4-names')
+const sayHI = require('./5-utilis')
+console.log(names)
+sayHi('susan')
+sayHi(names.john)
+sayHi(names.peter)
